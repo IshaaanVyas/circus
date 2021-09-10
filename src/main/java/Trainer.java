@@ -4,7 +4,9 @@ public class Trainer {
         getToSpeak(d);
 
         Bird b = (Bird) d;  // upcasting
+        //Parrot i = (Parrot) b;
         getToSpeak(b);
+        //i.fly();
 
         Animal a = (Animal) b; // upcasting
         getToSpeak(a);
